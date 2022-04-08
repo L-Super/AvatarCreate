@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/Ubuntu.qss</file>
+        <file>resource/Multiavatar.png</file>
+        <file>resource/Multiavatar_256.ico</file>
+    </qresource>
+</RCC>
