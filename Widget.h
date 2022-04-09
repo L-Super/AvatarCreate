@@ -2,7 +2,7 @@
 /*
  * 利用api生成头像
  * 使用https://api.multiavatar.com/ 接口进行get请求，获取返回的头像
- * TODO:接口未调试成功，未获取其json形式进行解析
+ * TODO:优化细节部分
 */
 
 #include <QWidget>
@@ -37,6 +37,7 @@ private:
     QNetworkAccessManager* manager;
     QNetworkRequest request;
     QUrl url;
+    QString apiKey;
     QPixmap pixmap;
     QTimer timer;
     int num;

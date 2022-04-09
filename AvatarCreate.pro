@@ -34,3 +34,6 @@ RESOURCES += \
     resource.qrc
 
 RC_ICONS = resource/Multiavatar_256.ico
+VERSION = 1.0.2
+
+

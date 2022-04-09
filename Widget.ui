@@ -16,11 +16,24 @@
   <property name="windowTitle">
    <string>Widget</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout" stretch="3,1,0,1,0">
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="3,1,0,1">
+   <property name="spacing">
+    <number>12</number>
+   </property>
+   <property name="bottomMargin">
+    <number>20</number>
+   </property>
    <item>
     <widget class="QLabel" name="avatarLabel">
+     <property name="font">
+      <font>
+       <family>MiSans</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
      <property name="text">
-      <string>avatar</string>
+      <string>avatar
+头像生成器</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -44,6 +57,11 @@
      </item>
      <item>
       <widget class="QLineEdit" name="lineEdit">
+       <property name="font">
+        <font>
+         <family>MiSans</family>
+        </font>
+       </property>
        <property name="frame">
         <bool>true</bool>
        </property>
@@ -106,19 +124,6 @@
       </widget>
      </item>
     </layout>
-   </item>
-   <item>
-    <spacer name="verticalSpacer_2">
-     <property name="orientation">
-      <enum>Qt::Vertical</enum>
-     </property>
-     <property name="sizeHint" stdset="0">
-      <size>
-       <width>20</width>
-       <height>40</height>
-      </size>
-     </property>
-    </spacer>
    </item>
   </layout>
  </widget>

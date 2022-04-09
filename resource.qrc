@@ -3,5 +3,6 @@
         <file>resource/Ubuntu.qss</file>
         <file>resource/Multiavatar.png</file>
         <file>resource/Multiavatar_256.ico</file>
+        <file>resource/info.png</file>
     </qresource>
 </RCC>
